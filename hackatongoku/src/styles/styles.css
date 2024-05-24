@@ -1,0 +1,46 @@
+.login-container {
+  background-image: url('../assets/todos.jpg'); 
+  
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.login-titulo{
+  font-size: 30px;
+  color: #131313;
+  margin-bottom: 20px;
+
+}
+.login-form {
+    background: rgba(250, 249, 249, 0.65);
+  padding: 60px;
+  border-radius: 10px;
+  text-align: center;
+  margin-left: 950px;
+}
+
+.login-form input {
+ display: block;
+  margin: 10px;
+  padding: 10px;
+  width: 100%;
+  border: none;
+  border-radius: 5px;
+}
+.login-form button {
+ 
+    margin: 10px;
+     padding: 10px;
+     width: 100%;
+  background-color: #2a602c;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.login-form button:hover {
+  background-color: #163718;
+}
